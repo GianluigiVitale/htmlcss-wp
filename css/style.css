@@ -68,8 +68,10 @@ li:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.row {
-    height: 500px;
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 aside {
@@ -98,7 +100,8 @@ main .content {
 }
 
 footer {
-    margin-top: 10px;
+    border-radius: 10px;
+    margin: 10px auto;
     height: 100px;
     background-color: white;
     text-align: center;
