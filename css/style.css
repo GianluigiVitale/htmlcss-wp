@@ -4,15 +4,11 @@
     box-sizing: border-box;
 }
 
-h1, p {
-    margin: 10px;
-}
-
 body {
     background-image: url('../img/background.png');
 }
 
-.layout {
+.container {
     width: 80vw;
     margin: 0 auto;
 }
@@ -72,18 +68,12 @@ li:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.content {
+.row {
     height: 500px;
 }
 
-.leftspace {
+aside {
     float: left;
-    width: 17%;
-    background-color: white;
-}
-
-.rightspace {
-    float: right;
     width: 17%;
     background-color: white;
 }
@@ -95,18 +85,14 @@ main {
     padding: 0 80px;
 }
 
-main .spazio {
+main .content {
     height: 100%;
     background-color: white;
 }
 
-.spazio h1 {
-    margin-top: 0;
-    padding-top: 5px;
-}
-
-.spazio p {
-    padding-bottom: 5px;
+.content {
+    padding: 10px;
+    border-radius: 10px;
 }
 
 footer {
